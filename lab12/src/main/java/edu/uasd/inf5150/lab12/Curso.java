@@ -9,7 +9,7 @@ public class Curso{
 
 	//El constructor acepta nombre, codigo y tipo Profesor
 	//tira excepcion si esta los parametros estan vacion o son nulos
-    public Curso(String nombre, String codigo, Profesor profesorCursando) {
+    public Curso(String codigo, String nombre, Profesor profesorCursando) {
         if (nombre == null || nombre.isBlank()) {
             throw new IllegalArgumentException("El nombre del Curso no puede estar vacio ni ser nulo");
         }
@@ -43,7 +43,7 @@ public class Curso{
     @Override
     public String toString() {
     	
-    		return String.format("[Nombre: %s],[Codigo del Curso: %s], [Profesor: %s]", codigo, nombre, profesorCursando);
+    		return String.format("[Codigo del Curso: %s],[Nombre: %s], [Profesor: %s]", codigo, nombre, profesorCursando);
     }
 }
 
