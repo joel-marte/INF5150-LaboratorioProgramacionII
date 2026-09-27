@@ -40,6 +40,8 @@ public class Universidad{
                         "Ya tenemos un curso creado con este codigo: " + curso.getCodigo());
         		}
         }
+        //agregamos el curso
+        cursosActivos.add(curso);
         
     }
     //esta funcion nos devuelve todos los cursos activos

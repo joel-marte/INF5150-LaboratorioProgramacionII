@@ -28,6 +28,6 @@ public class Profesor {
     @Override
     public String toString() {
     	
-    		return String.format("Nombre: %s, Especialidad: %s", nombre, especialidad);
+    		return String.format("%s, Especialidad: %s", nombre, especialidad);
     }
 }

@@ -7,12 +7,12 @@ package edu.uasd.inf5150.lab12;
         Universidad universidad = new Universidad("UASD");
 
         //Aqui tenemos los ejemplos de profesores
-        Profesor profesor1 = new Profesor("Juan Perez", "Programacion II");
-        Profesor profesor2 = new Profesor("Rosa Gomez", "Teleproceso");
-        Profesor profesor3 = new Profesor("Pedro Ruiz", "Bases de Datos I");
+        Profesor profesor1 = new Profesor("Juan Perez", "Programacion");
+        Profesor profesor2 = new Profesor("Rosa Gomez", "Redes");
+        Profesor profesor3 = new Profesor("Pedro Ruiz", "Bases de Datos");
 
         // Luego cursos de ejemplos, en este caso cada uno con su profesor asignado
-        Curso curso1 = new Curso("INF-5150", "Lenguaje de Programación II", profesor1);
+        Curso curso1 = new Curso("INF-5150", "Lenguaje de Programacion II", profesor1);
         Curso curso2 = new Curso("INF-4050", "Teleproceso", profesor2);
         Curso curso3 = new Curso("INF-4200", "Bases de Datos I", profesor3);
 

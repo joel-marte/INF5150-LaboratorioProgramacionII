@@ -4,6 +4,7 @@ public class Curso{
 	//variables del Curso
 	private final String codigo;
 	private final String nombre;
+	//Variable tipo Profesor ya que un curso debe tener un profesor
 	private final Profesor profesorCursando;
 
 	//El constructor acepta nombre, codigo y tipo Profesor
@@ -42,7 +43,7 @@ public class Curso{
     @Override
     public String toString() {
     	
-    		return String.format("Codigo Curso: %s, Nombre: %s, Profesor: %s", codigo, nombre, profesorCursando);
+    		return String.format("[Nombre: %s],[Codigo del Curso: %s], [Profesor: %s]", codigo, nombre, profesorCursando);
     }
 }
 
