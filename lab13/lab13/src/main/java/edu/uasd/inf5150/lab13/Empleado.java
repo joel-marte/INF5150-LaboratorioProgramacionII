@@ -2,9 +2,8 @@ package edu.uasd.inf5150.lab13;
 
 //Clase abstracta que representa un Empleado generico del hospital
 public abstract class Empleado {
-    //variable que guarda el nombre del empleado
+    //variables que guardan el nombre y salario del empleado
     private final String nombre;
-    //variable que guarda el salario base del empleado
     private final double salarioBase;
 
     //Declare el constructor para aceptar el nombre y el salario base del empleado
@@ -32,11 +31,11 @@ public abstract class Empleado {
         return salarioBase;
     }
 
-    //Metodo abstracto que cada subclase (Medico, Enfermero, Administrativo) debe
-    //implementar con su propio comportamiento de trabajo
+    //Declare el metodo abstracto que cada subclase (Medico, Enfermero, Administrativo) tiene 
+    //que implementar con su propio comportamiento
     public abstract String trabajar();
 
-    //Funcion toString() para devolver datos string del Empleado para mostrar por consola
+    //Funcion toString() devuelve los datos string del Empleado para mostrar por consola
     @Override
     public String toString() {
         return String.format("[Nombre: %s], [Salario: %.2f], [Actividad: %s]", nombre, salarioBase, trabajar());
