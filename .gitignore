@@ -1,0 +1,12 @@
+# Carpetas de compilacion de Maven las cuales se regeneran automaticamente
+target/
+**/target/
+
+# Archivos de configuracion de Eclipse
+.project
+.classpath
+.settings/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
