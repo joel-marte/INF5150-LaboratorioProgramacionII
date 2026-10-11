@@ -9,7 +9,6 @@ import java.io.OutputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
-//Clase que tiene solo la logica de escribir y leer un Estudiante en un archivo binario
 public class AlmacenEstudiante {
 
     //Filtro que solo deja leer la clase Estudiante y las clases basicas de java.lang
@@ -47,11 +46,11 @@ public class AlmacenEstudiante {
 
             Object leido = objetos.readObject();
             if (!(leido instanceof Estudiante)) {
-                throw new IOException("El archivo no contiene un Estudiante");
+                throw new IOException("El archivo no tiene un Estudiante");
             }
             return (Estudiante) leido;
         } catch (ClassNotFoundException e) {
-            throw new IOException("El archivo contiene una clase desconocida: " + e.getMessage(), e);
+            throw new IOException("El archivo tiene una clase desconocida: " + e.getMessage(), e);
         }
     }
 }

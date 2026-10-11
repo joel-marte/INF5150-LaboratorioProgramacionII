@@ -3,7 +3,7 @@ package edu.uasd.inf5150.lab17;
 import java.io.Serializable;
 
 //Clase que representa un estudiante con nombre, matricula y promedio
-//implementa Serializable para poder guardarla en un archivo binario
+//implementa Serializable para que podamos guardarla en un archivo binario
 public class Estudiante implements Serializable {
 
     //Identificador de version de la clase, necesario para leer lo que se guardo
@@ -43,7 +43,7 @@ public class Estudiante implements Serializable {
         return promedio;
     }
 
-    //Esta funcion devuelve la informacion del estudiante en un texto
+    //Esta funcion nos da la informacion del estudiante en un texto
     @Override
     public String toString() {
         return "Estudiante{nombre=" + nombre + ", matricula=" + matricula + ", promedio=" + promedio + "}";
