@@ -10,8 +10,8 @@ class Main {
 
     public static void main(String[] args) {
 
-        //Aqui indicamos el archivo a leer, ubicado en la raiz del proyecto
-        mostrarArchivo(new File("datos.txt"), System.out);
+        //Aqui se le indica el archivo a leer, ubicado en la raiz del proyecto
+        mostrarArchivo(new File("falso.txt"), System.out);
     }
 
     //Esta funcion muestra el contenido del archivo linea por linea en la salida que le pasemos

@@ -1,0 +1,7 @@
+Laboratorio 21 - Lectura de archivo
+Universidad Autonoma de Santo Domingo
+Lenguaje de Programacion II
+
+Autor Joel Marte
+
+Fin del archivo
